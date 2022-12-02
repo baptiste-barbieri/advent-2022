@@ -1,0 +1,1 @@
+print(sum(ord(m)-87+(2-ord(o)+ord(m))%3*3for o,_,m,_ in open('i').readlines()))
