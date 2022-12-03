@@ -1,4 +1,4 @@
-app "advent-02-1"
+app "advent-02-2"
     packages { pf: "/home/baptistebarbieri/roc/roc_nightly-linux_x86_64-2022-11-28-patch/examples/cli/cli-platform/main.roc" }
     imports [pf.Stdout, pf.Task.{ await, Task }, pf.File, pf.Path]
     provides [main] to pf
