@@ -40,7 +40,7 @@ makeInstructions = \s ->
 
 processSignal : List I32 -> List Str
 processSignal = \l ->
-    List.mapWithIndex l \signal, index -> if Num.abs (signal - ((Num.toI32 index) % 40)) > 1 then "." else "#"
+    List.mapWithIndex l \signal, index -> if Num.abs (signal - ((Num.toI32 index) % 40)) > 1 then " " else "█"
 
 partitionList : List a, Nat -> List (List a)
 partitionList = \l, n ->
